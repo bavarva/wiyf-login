@@ -7,17 +7,17 @@
   }
   
   /* Background */
-  .login-page {
+  .signup-page {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #4b6cb7, #182848); /* Soft Blue to Dark Blue */
+    background: linear-gradient(to right, #4b6cb7, #182848); /* Soft Blue Gradient */
     animation: fadeIn 1s ease-in-out;
   }
   
-  /* Login Container */
-  .login-container {
+  /* Signup Container */
+  .signup-container {
     width: 350px;
     padding: 20px;
     border-radius: 15px;
@@ -28,7 +28,7 @@
     transition: transform 0.3s ease-in-out;
   }
   
-  .login-container:hover {
+  .signup-container:hover {
     transform: scale(1.02);
   }
   
@@ -102,20 +102,20 @@
     transform: translateY(-3px);
   }
   
-  /* Register Link */
-  .register-link {
+  /* Login Link */
+  .login-link {
     margin-top: 10px;
     font-size: 14px;
     color: #d0d0d0;
   }
   
-  .register-link a {
+  .login-link a {
     color: #f1c40f;
     text-decoration: none;
     font-weight: bold;
   }
   
-  .register-link a:hover {
+  .login-link a:hover {
     text-decoration: underline;
   }
   
@@ -148,4 +148,5 @@
   .link:hover {
     text-decoration: underline;
   }
-    
+  
+  
